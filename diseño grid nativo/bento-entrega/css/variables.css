@@ -1,0 +1,18 @@
+:root {
+  --gap: 1.2rem;
+  --radius: 1.4rem;
+  --font-main: 'Inter', sans-serif;
+  --bg: #f5f6fa;
+  --card-bg: #ffffff;
+  --text: #1f2933;
+  --accent: #4f46e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --card-bg: #1e293b;
+    --text: #e5e7eb;
+    --accent: #818cf8;
+  }
+}
